@@ -34,4 +34,4 @@ jobs:
       - name: Setup yarn
         run: npm install --global surge
       - name: Execute deployment
-        run: surge ./build njmclass02bootcamp.surge.sh --token ${{secrets.CLASS_TOKEN}}
+        run: surge ./njmclass02bootcamp.surge.sh --token ${{secrets.CLASS_TOKEN}}
